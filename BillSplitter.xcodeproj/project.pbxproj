@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96126A571A2843DD006AA998 /* SingleModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96126A561A2843DD006AA998 /* SingleModeViewController.m */; };
+		96126A601A285288006AA998 /* Chaticon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A591A285288006AA998 /* Chaticon.jpg */; };
+		96126A611A285288006AA998 /* informationicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5A1A285288006AA998 /* informationicon.jpg */; };
+		96126A621A285288006AA998 /* Mountains.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5B1A285288006AA998 /* Mountains.jpg */; };
+		96126A631A285288006AA998 /* mountains2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5C1A285288006AA998 /* mountains2.jpg */; };
+		96126A641A285288006AA998 /* settings2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5D1A285288006AA998 /* settings2.jpg */; };
+		96126A651A285288006AA998 /* Skier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5E1A285288006AA998 /* Skier.jpg */; };
+		96126A661A285288006AA998 /* Snowboarder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5F1A285288006AA998 /* Snowboarder.jpg */; };
 		96BDB30219F588BC00C3DE1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30119F588BC00C3DE1A /* main.m */; };
 		96BDB30519F588BC00C3DE1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30419F588BC00C3DE1A /* AppDelegate.m */; };
 		96BDB30819F588BC00C3DE1A /* BillSplitter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30619F588BC00C3DE1A /* BillSplitter.xcdatamodeld */; };
-		96BDB30B19F588BC00C3DE1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30A19F588BC00C3DE1A /* ViewController.m */; };
+		96BDB30B19F588BC00C3DE1A /* PartyModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30A19F588BC00C3DE1A /* PartyModeViewController.m */; };
 		96BDB30E19F588BC00C3DE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BDB30C19F588BC00C3DE1A /* Main.storyboard */; };
 		96BDB31019F588BC00C3DE1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BDB30F19F588BC00C3DE1A /* Images.xcassets */; };
 		96BDB31319F588BC00C3DE1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BDB31119F588BC00C3DE1A /* LaunchScreen.xib */; };
@@ -28,14 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96126A551A2843DD006AA998 /* SingleModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleModeViewController.h; sourceTree = "<group>"; };
+		96126A561A2843DD006AA998 /* SingleModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleModeViewController.m; sourceTree = "<group>"; };
+		96126A591A285288006AA998 /* Chaticon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chaticon.jpg; sourceTree = "<group>"; };
+		96126A5A1A285288006AA998 /* informationicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = informationicon.jpg; sourceTree = "<group>"; };
+		96126A5B1A285288006AA998 /* Mountains.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountains.jpg; sourceTree = "<group>"; };
+		96126A5C1A285288006AA998 /* mountains2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountains2.jpg; sourceTree = "<group>"; };
+		96126A5D1A285288006AA998 /* settings2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settings2.jpg; sourceTree = "<group>"; };
+		96126A5E1A285288006AA998 /* Skier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skier.jpg; sourceTree = "<group>"; };
+		96126A5F1A285288006AA998 /* Snowboarder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snowboarder.jpg; sourceTree = "<group>"; };
 		96BDB2FC19F588BC00C3DE1A /* BillSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BDB30019F588BC00C3DE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96BDB30119F588BC00C3DE1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96BDB30319F588BC00C3DE1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96BDB30419F588BC00C3DE1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		96BDB30719F588BC00C3DE1A /* BillSplitter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BillSplitter.xcdatamodel; sourceTree = "<group>"; };
-		96BDB30919F588BC00C3DE1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96BDB30A19F588BC00C3DE1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96BDB30919F588BC00C3DE1A /* PartyModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartyModeViewController.h; sourceTree = "<group>"; };
+		96BDB30A19F588BC00C3DE1A /* PartyModeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyModeViewController.m; sourceTree = "<group>"; };
 		96BDB30D19F588BC00C3DE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96BDB30F19F588BC00C3DE1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96BDB31219F588BC00C3DE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -62,6 +79,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96126A581A285288006AA998 /* New IconsFinal */ = {
+			isa = PBXGroup;
+			children = (
+				96126A591A285288006AA998 /* Chaticon.jpg */,
+				96126A5A1A285288006AA998 /* informationicon.jpg */,
+				96126A5B1A285288006AA998 /* Mountains.jpg */,
+				96126A5C1A285288006AA998 /* mountains2.jpg */,
+				96126A5D1A285288006AA998 /* settings2.jpg */,
+				96126A5E1A285288006AA998 /* Skier.jpg */,
+				96126A5F1A285288006AA998 /* Snowboarder.jpg */,
+			);
+			name = "New IconsFinal";
+			path = "../../../New IconsFinal";
+			sourceTree = "<group>";
+		};
 		96BDB2F319F588BC00C3DE1A = {
 			isa = PBXGroup;
 			children = (
@@ -85,8 +117,10 @@
 			children = (
 				96BDB30319F588BC00C3DE1A /* AppDelegate.h */,
 				96BDB30419F588BC00C3DE1A /* AppDelegate.m */,
-				96BDB30919F588BC00C3DE1A /* ViewController.h */,
-				96BDB30A19F588BC00C3DE1A /* ViewController.m */,
+				96BDB30919F588BC00C3DE1A /* PartyModeViewController.h */,
+				96BDB30A19F588BC00C3DE1A /* PartyModeViewController.m */,
+				96126A551A2843DD006AA998 /* SingleModeViewController.h */,
+				96126A561A2843DD006AA998 /* SingleModeViewController.m */,
 				96BDB30C19F588BC00C3DE1A /* Main.storyboard */,
 				96BDB30F19F588BC00C3DE1A /* Images.xcassets */,
 				96BDB31119F588BC00C3DE1A /* LaunchScreen.xib */,
@@ -99,6 +133,7 @@
 		96BDB2FF19F588BC00C3DE1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96126A581A285288006AA998 /* New IconsFinal */,
 				96BDB30019F588BC00C3DE1A /* Info.plist */,
 				96BDB30119F588BC00C3DE1A /* main.m */,
 			);
@@ -202,9 +237,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96126A621A285288006AA998 /* Mountains.jpg in Resources */,
+				96126A611A285288006AA998 /* informationicon.jpg in Resources */,
+				96126A601A285288006AA998 /* Chaticon.jpg in Resources */,
 				96BDB30E19F588BC00C3DE1A /* Main.storyboard in Resources */,
 				96BDB31319F588BC00C3DE1A /* LaunchScreen.xib in Resources */,
+				96126A631A285288006AA998 /* mountains2.jpg in Resources */,
+				96126A661A285288006AA998 /* Snowboarder.jpg in Resources */,
 				96BDB31019F588BC00C3DE1A /* Images.xcassets in Resources */,
+				96126A641A285288006AA998 /* settings2.jpg in Resources */,
+				96126A651A285288006AA998 /* Skier.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96126A571A2843DD006AA998 /* SingleModeViewController.m in Sources */,
 				96BDB30519F588BC00C3DE1A /* AppDelegate.m in Sources */,
 				96BDB30219F588BC00C3DE1A /* main.m in Sources */,
-				96BDB30B19F588BC00C3DE1A /* ViewController.m in Sources */,
+				96BDB30B19F588BC00C3DE1A /* PartyModeViewController.m in Sources */,
 				96BDB30819F588BC00C3DE1A /* BillSplitter.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +459,7 @@
 				96BDB32419F588BC00C3DE1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96BDB32519F588BC00C3DE1A /* Build configuration list for PBXNativeTarget "BillSplitterTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +468,7 @@
 				96BDB32719F588BC00C3DE1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
