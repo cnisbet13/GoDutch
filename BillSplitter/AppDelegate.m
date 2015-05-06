@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
    
-
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    UITabBarItem *singleModeTabBar = [tabBar.items objectAtIndex:0];
+    UITabBarItem *partyModeTabBar = [tabBar.items objectAtIndex:1];
+//    
+//    singleModeTabBar.title = @"Single Mode";
+//    partyModeTabBar.title = @"Party Mode";
+//    
+//    [singleModeTabBar setFinishedSelectedImage:[UIImage imageNamed:@"snowboard.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"Snowboarder.jpg"]];
+//    
+   
+    [partyModeTabBar initWithTitle:@"Party Mode" image:nil selectedImage:nil];
+    
+//    [partyModeTabBar setFinishedSelectedImage:[UIImage imageNamed:@"myplan_selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"myplan"]];
+    
+//
+    
+//    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+//                                                       [UIColor blueColor], UITextAttributeTextColor,
+//                                                       nil] forState:UIControlStateNormal];
+//    UIColor *titleHighlightedColor = [UIColor colorWithRed:153/255.0 green:192/255.0 blue:48/255.0 alpha:1.0];
+//    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+//                                                       titleHighlightedColor, UITextAttributeTextColor,
+//                                                       nil] forState:UIControlStateHighlighted];
     return YES;
 }
 

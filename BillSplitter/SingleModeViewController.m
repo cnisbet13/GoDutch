@@ -42,17 +42,17 @@
 - (IBAction)tipPercentageSlider:(id)sender
 {
     NSInteger val = lround(_tipPercentageSlider.value);
-    self.tipPercentageLabel.text = [NSString stringWithFormat:@"%d", val];
+    self.tipPercentageLabel.text = [NSString stringWithFormat:@"%ld", (long)val];
 }
 
 -(void)mealPrice
 {
     float tipPercentage = self.tipPercentageSlider.value/100;
     
-    
+        
     float mealCost = [self.mealPriceTextField.text floatValue];
     
-    float mealTip = mealCost * mealCost;
+    float mealTip = tipPercentage * mealCost;
     float myCost = mealTip + mealCost;
     
     self.totalPriceLabel.text = [NSString stringWithFormat:@"$%.2f", myCost];
@@ -62,6 +62,7 @@
 -(IBAction)mealCost:(id)sender
 {
     [self mealPrice];
+    [self resignFirstResponder];
 }
 
 @end

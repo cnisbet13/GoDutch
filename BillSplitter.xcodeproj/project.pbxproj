@@ -8,13 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		96126A571A2843DD006AA998 /* SingleModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96126A561A2843DD006AA998 /* SingleModeViewController.m */; };
-		96126A601A285288006AA998 /* Chaticon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A591A285288006AA998 /* Chaticon.jpg */; };
-		96126A611A285288006AA998 /* informationicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5A1A285288006AA998 /* informationicon.jpg */; };
-		96126A621A285288006AA998 /* Mountains.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5B1A285288006AA998 /* Mountains.jpg */; };
-		96126A631A285288006AA998 /* mountains2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5C1A285288006AA998 /* mountains2.jpg */; };
-		96126A641A285288006AA998 /* settings2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5D1A285288006AA998 /* settings2.jpg */; };
-		96126A651A285288006AA998 /* Skier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5E1A285288006AA998 /* Skier.jpg */; };
-		96126A661A285288006AA998 /* Snowboarder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96126A5F1A285288006AA998 /* Snowboarder.jpg */; };
 		96BDB30219F588BC00C3DE1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30119F588BC00C3DE1A /* main.m */; };
 		96BDB30519F588BC00C3DE1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30419F588BC00C3DE1A /* AppDelegate.m */; };
 		96BDB30819F588BC00C3DE1A /* BillSplitter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB30619F588BC00C3DE1A /* BillSplitter.xcdatamodeld */; };
@@ -23,6 +16,8 @@
 		96BDB31019F588BC00C3DE1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BDB30F19F588BC00C3DE1A /* Images.xcassets */; };
 		96BDB31319F588BC00C3DE1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BDB31119F588BC00C3DE1A /* LaunchScreen.xib */; };
 		96BDB31F19F588BC00C3DE1A /* BillSplitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BDB31E19F588BC00C3DE1A /* BillSplitterTests.m */; };
+		96E19B9F1AFAADD300495E00 /* Cool-Guy_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E19B9E1AFAADD300495E00 /* Cool-Guy_30px.png */; };
+		96E19BA11AFAAEAA00495E00 /* Conference_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E19BA01AFAAEAA00495E00 /* Conference_30px.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +33,6 @@
 /* Begin PBXFileReference section */
 		96126A551A2843DD006AA998 /* SingleModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleModeViewController.h; sourceTree = "<group>"; };
 		96126A561A2843DD006AA998 /* SingleModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleModeViewController.m; sourceTree = "<group>"; };
-		96126A591A285288006AA998 /* Chaticon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chaticon.jpg; sourceTree = "<group>"; };
-		96126A5A1A285288006AA998 /* informationicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = informationicon.jpg; sourceTree = "<group>"; };
-		96126A5B1A285288006AA998 /* Mountains.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountains.jpg; sourceTree = "<group>"; };
-		96126A5C1A285288006AA998 /* mountains2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountains2.jpg; sourceTree = "<group>"; };
-		96126A5D1A285288006AA998 /* settings2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settings2.jpg; sourceTree = "<group>"; };
-		96126A5E1A285288006AA998 /* Skier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skier.jpg; sourceTree = "<group>"; };
-		96126A5F1A285288006AA998 /* Snowboarder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snowboarder.jpg; sourceTree = "<group>"; };
 		96BDB2FC19F588BC00C3DE1A /* BillSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BDB30019F588BC00C3DE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96BDB30119F588BC00C3DE1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +47,8 @@
 		96BDB31819F588BC00C3DE1A /* BillSplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillSplitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BDB31D19F588BC00C3DE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96BDB31E19F588BC00C3DE1A /* BillSplitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillSplitterTests.m; sourceTree = "<group>"; };
+		96E19B9E1AFAADD300495E00 /* Cool-Guy_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cool-Guy_30px.png"; sourceTree = "<group>"; };
+		96E19BA01AFAAEAA00495E00 /* Conference_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Conference_30px.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,21 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96126A581A285288006AA998 /* New IconsFinal */ = {
-			isa = PBXGroup;
-			children = (
-				96126A591A285288006AA998 /* Chaticon.jpg */,
-				96126A5A1A285288006AA998 /* informationicon.jpg */,
-				96126A5B1A285288006AA998 /* Mountains.jpg */,
-				96126A5C1A285288006AA998 /* mountains2.jpg */,
-				96126A5D1A285288006AA998 /* settings2.jpg */,
-				96126A5E1A285288006AA998 /* Skier.jpg */,
-				96126A5F1A285288006AA998 /* Snowboarder.jpg */,
-			);
-			name = "New IconsFinal";
-			path = "../../../New IconsFinal";
-			sourceTree = "<group>";
-		};
 		96BDB2F319F588BC00C3DE1A = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +98,8 @@
 				96126A561A2843DD006AA998 /* SingleModeViewController.m */,
 				96BDB30C19F588BC00C3DE1A /* Main.storyboard */,
 				96BDB30F19F588BC00C3DE1A /* Images.xcassets */,
+				96E19BA01AFAAEAA00495E00 /* Conference_30px.png */,
+				96E19B9E1AFAADD300495E00 /* Cool-Guy_30px.png */,
 				96BDB31119F588BC00C3DE1A /* LaunchScreen.xib */,
 				96BDB30619F588BC00C3DE1A /* BillSplitter.xcdatamodeld */,
 				96BDB2FF19F588BC00C3DE1A /* Supporting Files */,
@@ -133,7 +110,6 @@
 		96BDB2FF19F588BC00C3DE1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				96126A581A285288006AA998 /* New IconsFinal */,
 				96BDB30019F588BC00C3DE1A /* Info.plist */,
 				96BDB30119F588BC00C3DE1A /* main.m */,
 			);
@@ -237,16 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96126A621A285288006AA998 /* Mountains.jpg in Resources */,
-				96126A611A285288006AA998 /* informationicon.jpg in Resources */,
-				96126A601A285288006AA998 /* Chaticon.jpg in Resources */,
+				96E19BA11AFAAEAA00495E00 /* Conference_30px.png in Resources */,
 				96BDB30E19F588BC00C3DE1A /* Main.storyboard in Resources */,
+				96E19B9F1AFAADD300495E00 /* Cool-Guy_30px.png in Resources */,
 				96BDB31319F588BC00C3DE1A /* LaunchScreen.xib in Resources */,
-				96126A631A285288006AA998 /* mountains2.jpg in Resources */,
-				96126A661A285288006AA998 /* Snowboarder.jpg in Resources */,
 				96BDB31019F588BC00C3DE1A /* Images.xcassets in Resources */,
-				96126A641A285288006AA998 /* settings2.jpg in Resources */,
-				96126A651A285288006AA998 /* Skier.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

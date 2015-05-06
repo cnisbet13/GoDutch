@@ -40,14 +40,14 @@
 - (IBAction)guestSliderValueChanged:(id)sender
 {
     NSInteger guestValue = lround(_guestsSlider.value);
-    self.guestsLabel.text = [NSString stringWithFormat:@"%d", guestValue];
+    self.guestsLabel.text = [NSString stringWithFormat:@"%ld", (long)guestValue];
 }
 
 
 - (IBAction)tipPercentageSliderValueChanged:(id)sender
 {
     NSInteger tipValue = lround(_tipPercentageSlider.value);
-    self.tipPercentageLabel.text = [NSString stringWithFormat:@"%d", tipValue];
+    self.tipPercentageLabel.text = [NSString stringWithFormat:@"%d", (int)tipValue];
 }
 
 #pragma mark - Methods
@@ -63,20 +63,26 @@
     NSInteger guestsValue = lround(_guestsSlider.value);
     
     //converting the value of the slider into an integer - check.
-    NSInteger tipValue = lround(_tipPercentageSlider.value);
+    float tipValue = lround(_tipPercentageSlider.value);
+    
+    NSLog(@"tipValue is %ld", (long)tipValue);
     
     //not getting called - what I am trying to do is take the tipvalue from above and divide it by 10 or 100.
     //Why might it not be working?
-    int tipCost = tipValue/10;
+    float tipCost = tipValue / 100;
+    
+    NSLog(@"tipCost is %f", tipCost);
     
     //taking the meal cost and dividing by the number of people.
-    float individualCostOfMeal = totalCostOfMeal / guestsValue;
-  
-    //taking the result from the two above and
-    float totalMeal = tipCost + individualCostOfMeal;
+    float individualMeal = totalCostOfMeal / guestsValue;
     
-    self.totalPriceLabel.text = [NSString stringWithFormat:@"$%f",totalMeal];
-    NSLog(@"%f",totalMeal);
+    //taking the result from the two above and
+    float mealTax = tipCost * individualMeal;
+    float totalMeal = mealTax + individualMeal;
+    
+    
+    self.totalPriceLabel.text = [NSString stringWithFormat:@"$%.2f",totalMeal];
+    NSLog(@"%.2f",totalMeal);
 }
 
 
